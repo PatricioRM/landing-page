@@ -23,11 +23,17 @@ ul a {
     color: #e5e7eb;
 }
 
+.header  * {
+    margin: 5px;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
     padding: 0px 200px ; 
     /* border: 2px solid red; */
+    margin: 0;
+    align-items: center;
 }
 
 .header .container ul {
@@ -38,6 +44,7 @@ ul a {
     align-items: center;
     /* border: 2px solid red; */
     
+    
 }
 
 .header .container .logo {
@@ -46,15 +53,8 @@ ul a {
     /* margin-left: 9em; */
     text-align: center;
     /* border: 2px solid red; */
-    
-    
+
 }
-
-
-
-
-
-
 
 .hero {
     background-color: #1f2937;
