@@ -34,7 +34,7 @@ ul a {
 .header .container {
     display: flex;
     justify-content: space-between;
-    padding: 0px 400px ; 
+    padding: 0px 300px ; 
     /* border: 2px solid red; */
     margin: 0;
     align-items: center;
@@ -71,9 +71,10 @@ ul a {
 .hero .container {
     display: flex;
     justify-content: center;
-    padding: 50px 400px;
+    padding: 100px 300px;
     margin-top: 0px;
-    height: 200px;
+    height: 250px;
+    flex-wrap: wrap;
     
 }
 
@@ -84,7 +85,7 @@ ul a {
     align-self: stretch;
     align-content: center;
     background-color: rgb(86, 85, 85);
-    flex: 1;
+    flex-basis: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,10 +94,12 @@ ul a {
 
 .hero .container .text {
     flex: 1;
-    margin-bottom: 0;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-height: 235px;
+    flex-basis: 400px;
 
 }
 
@@ -109,6 +112,7 @@ ul a {
     margin: 10px 0px;
     padding: 8px 30px;
     border-radius: 8px;
+    border-style: none;
 }
 
 .hero .container .text .upperbtn a {
@@ -117,7 +121,9 @@ ul a {
 
 .hero .container .text h1 {
     font-size: 48px;
+    flex:1 0 ;
 }
 .hero .container .text p {
     font-size: 18px;
+    flex:1 0;
 }
