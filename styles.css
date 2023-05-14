@@ -39,6 +39,7 @@ header .container {
     margin: 0;
     align-items: center;
     flex-wrap: wrap;
+    max-height: 50px;
 }
 
 header .container ul {
@@ -50,7 +51,6 @@ header .container ul {
     /* border: 2px solid red; */
     margin: 0;
     flex-wrap: wrap;
-    flex:1 1 auto;
     text-align: left;
     
 }
@@ -82,11 +82,11 @@ header .container .logo {
 }
 
 img {
-    flex:1;
+    width: 400px;
 }
 
 .hero .container .text {
-    margin-right: 50px;
+    padding-right: 140px;
     display: flex;
     justify-content: flex-start;
     align-items: start;
