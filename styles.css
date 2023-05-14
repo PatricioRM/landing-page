@@ -81,7 +81,6 @@ header .container .logo {
 }
 
 .hero .container .imageplace {
-    order: 1;
     font-size: 18px;
     color: #e5e7eb;
     align-self: stretch;
@@ -91,7 +90,7 @@ header .container .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: ;
+    flex:1 0 100px;
 }
 
 .hero .container .text {
@@ -102,7 +101,7 @@ header .container .logo {
     justify-content: space-between;
     max-height: 235px;
     flex-basis: 400px;
-
+    flex:1;
 }
 
 .hero .container .text .upperbtn {
