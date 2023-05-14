@@ -73,10 +73,11 @@ header .container .logo {
 .hero .container {
     display: flex;
     justify-content: center;
-    padding: 100px 300px;
-    margin-top: 0px;
-    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
+    padding: 0px 300px;
+
     
 }
 
@@ -91,16 +92,17 @@ header .container .logo {
     align-items: center;
     justify-content: center;
     flex:1 0 100px;
+    width: 300px;
+    height: 200px;
 }
 
 .hero .container .text {
-    flex: 1;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-height: 235px;
-    flex-basis: 400px;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
     flex:1;
 }
 
