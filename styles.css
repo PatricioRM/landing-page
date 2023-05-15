@@ -27,14 +27,13 @@ ul a {
     color: #e5e7eb;
 }
 
-header  * {
-    margin: 5px;
+header {
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
-    padding: 0px 300px ; 
+    padding: 10px 300px ; 
     /* border: 2px solid red; */
     margin: 0;
     align-items: center;
@@ -47,22 +46,16 @@ header .container ul {
     list-style-type: none;
     gap: 25px;
     font-size: 18px;
-    align-items: center;
     /* border: 2px solid red; */
     margin: 0;
-    flex-wrap: wrap;
-    text-align: left;
     
 }
 
 header .container .logo {
     font-size: 24px;
     color: #f9faf8;
-    text-align: left;
     /* border: 2px solid red; */
     margin: 0;
-    flex:1;
-
 }
 
 .hero {
@@ -76,7 +69,6 @@ header .container .logo {
     display: flex;
     justify-content: center;
     /* margin-top: 100px; */
-    margin-bottom: 100px;
     flex-wrap: wrap;
     padding: 100px 300px;    
 }
@@ -89,18 +81,15 @@ img {
     padding-right: 140px;
     display: flex;
     justify-content: flex-start;
-    align-items: start;
     flex:1;
     flex-direction: column;
 }
 
 .hero .container .text .upperbtn {
-    align-self: flex-start;
     font-size: 18px ;
     font-weight: bolder;
     background-color: #3882f6;
     color: white;
-    margin: 10px 0px;
     padding: 8px 30px;
     border-radius: 8px;
     border-style: none;
@@ -129,34 +118,31 @@ h2 {
 
 .card {
 
-    flex-basis: 150px;
-    margin-top: 40px;
+    padding: 40px 20px;
        
 }
 
 .cards .container {
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     flex-wrap: wrap;
     
 }
 
 
 .box {
+    box-sizing: border-box;
     border: 4px solid #3882f6;
     border-radius: 25px;
-    width: 230px;
-    height: 230px;
-    margin: 30px 30px 5px ;
-    padding:;
-    
+    width: 200px;
+    height: 200px;
+    padding: 30px ;   
 }
 
 .card p {
-    width: 230px;
+    width: 200px;
     text-align: center;
-    margin: 5px 30px 5px;
     font-size: 18px;
 }
 
@@ -173,14 +159,14 @@ h2 {
     color: #1f2937;
     font-size: 36px ;
     text-align: left;
-    margin: 150px 400px  0px  ;
+    padding: 150px 400px  0px  ;
 }
 
 .quote footer {
     text-align: right;
-    margin-bottom: 150px;
-    margin-right: 400px;
-    margin-top: 30px;
+    padding-bottom: 150px;
+    padding-right: 400px;
+    padding-top: 30px;
     font-size: 26px;
     font-weight: bold;
 }
