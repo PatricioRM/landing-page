@@ -48,6 +48,7 @@ ul a:hover {
     gap: 80px;
     background-color: #1f2937;
     padding: 90px 250px;
+    flex-wrap: wrap;
 }
 
 .hero .container h1 {
@@ -96,6 +97,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -144,9 +146,10 @@ h2 {
     justify-content: space-between;
     background-color: #3882f6;
     padding: 60px 150px;
-    margin: 150px 250px;
+    margin: 100px 250px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 0px rgba(44, 44, 44, 0.277);
+    flex-wrap: wrap;
 }
 
 .call-to-action h3 {
