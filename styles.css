@@ -88,15 +88,21 @@ img {
 .hero .container .text .upperbtn {
     font-size: 18px ;
     font-weight: bolder;
-    background-color: #3882f6;
     color: white;
     padding: 8px 30px;
     border-radius: 8px;
     border-style: none;
+    display: inline-block;
+    cursor: grab;
 }
 
 .hero .container .text .upperbtn a {
     color: #e5e7eb;
+}
+
+.upperbtn:hover {
+    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.18);
+    background-color: #073580;
 }
 
 .hero .container .text h1 {
@@ -196,7 +202,8 @@ h2 {
 
 .text p {
     font-size: 18px;
-    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 12px;
 }
 
 .container button {
@@ -214,6 +221,15 @@ h2 {
     color: white;
 }
 
+.lowerbtn {
+    display: inline-block;
+}
+
+.lowerbtn:hover {
+    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.18);
+    background-color: #166bf2;
+    cursor: grab;
+}
 /* Footer */
 
 .lwrfooter {
