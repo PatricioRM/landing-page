@@ -45,11 +45,12 @@ ul a:hover {
 
 .hero .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 80px;
     background-color: #1f2937;
     padding: 90px 250px;
     flex-wrap: wrap;
+
 }
 
 .hero .container h1 {
